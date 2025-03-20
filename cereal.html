@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cereal Box</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            background-color: #ffa500;
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper {
+            width: 300px;
+            height: 500px;
+            background-color: #EF8201; 
+            border: 2px solid #000;
+            position: relative;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .header, .footer {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .content {
+    position: absolute;
+    top: 129px;
+    left: 90px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 147px;
+        }
+        .image1, .image2, .image3 {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background: transparent; 
+        }
+        .image1 {
+			width: 155px;
+            height: 155px;
+            top: 150px;
+            left: 10px;
+        }
+        .image2 {
+			width: 250px;
+            height: 250px;
+            bottom: 0px;
+            left: 0px; 
+        }
+        .image3 {
+			width: 155px;
+            height: 155px;
+            bottom: 110px;
+            right: 0px;
+        }
+    .content1 {
+    position: absolute;
+    top: 301px;
+    left: 385px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 171px;
+    height: 38px;
+}
+    .content2 {
+    position: absolute;
+    top: 304px;
+    left: 402px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 147px;
+}
+    </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">Crunchy Frosted Guys </div>
+        <div class="content">
+            Super Yummy!<br>
+        </div>
+        <img src="cerealimage/man.png" alt="Image 1" class="image1">
+        <img src="cerealimage/cereal.jpg" alt="Image 2" class="image2">
+        <img src="cerealimage/man2.png" alt="Image 3" class="image3"> <!-- Added image 3 -->
+      <div class="footer">Amazing Breakfast!</div>
+    </div>
+<span class="content2">Super Frosted!</span>
+</body>
+</html>
